@@ -150,6 +150,80 @@ card-img {
   width: 100%;
   height: 150%;
 }
+.container-table {
+  width: 80%;
+  margin: auto;
+
+}
+
+.content-title-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  flex-direction: column;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #fff;
+}
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #fff;
+}
+
+th {
+  background-color: #FF0000;
+}
+
+td {
+  color: #fff
+}
+.BMW{
+  height: 100vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(./Assets/bmw.jpg) ;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  height: 100vh;
+}
+
+.BMW .content-title-table {
+  color: red;
+}
+.Harley{
+  height: 100vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(./Assets/harley.jpg) ;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  height: 100vh;
+}
+
+.Harley .content-title-table {
+  color: red;
+}
+.Triumph{
+  height: 100vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(./Assets/triumph.jpg) ;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  height: 100vh;
+}
+
+.Triumph .content-title-table {
+  color: red;
+}
+
+
 
 footer {
   width: 100%;
