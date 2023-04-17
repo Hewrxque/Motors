@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Motorcicle Classic</title>
+    <link rel="icon" href="./Assets/logo.png" type="image/png">
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="./Assets/logo.png" alt="">
+        <div class="content-buttons">
+            <a href="#Home">
+                <button type="button" class="btn btn-dark">Inicio</button>
+            </a>
+            <div class="dropdown">
+                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Produto
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#Card">BMW</a>
+                    <a class="dropdown-item" href="#Card">Triumph</a>
+                    <a class="dropdown-item" href="#Card">Harley</a>
+                </div>
+            </div>
+            <a href="#Dúvidas">
+                <button type="button" class="btn btn-dark">Dúvidas</button>
+            </a>
+        </div>
+    </nav>
+    <div id="Home">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./Assets/bmw.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./Assets/harley.webp" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./Assets/triumph.webp" alt="Third slide">
+                </div>
+            </div>
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+        </div>
+    </div>
+    <div id="Card">
+        <div class="container-card">
+            <article>
+                <img src="./Assets/triumph.webp" class="card-img">
+                <div>
+                    <h2>Triumph Motorcycles Ltd</h2>
+                    <p>O Triumph Motocicletas é um fabricante britânico de motocicletas. Uma nova empresa denominada
+                        Hinckley assumiu o nome dos direitos após o colapso da companhia na década de 1980.</p>
+                    <button type="button" class="btn btn-dark">Saiba mais</button>
+                </div>
+            </article>
+            <article>
+                <img src="./Assets/harley.webp" class="card-img">
+                <div>
+                    <h2>Harley-Davidson</h2>
+                    <p>Harley-Davidson Motor Cycles ou Harley é uma empresa fundada em Milwaukee, nos Estados Unidos, no
+                        ano de 1903. É reconhecida mundialmente como uma marca emblemática de motociclos e dedica-se à
+                        fabricação de motos de grande porte e cilindrada.</p>
+                    <button type="button" class="btn btn-dark">Saiba mais</button>
+                </div>
+            </article>
+            <article>
+                <img src="./Assets/bmw.jpg" class="card-img">
+                <div>
+                    <h2>BMW Motorrad</h2>
+                    <p>BMW Motorrad é uma subsidiária do Grupo BMW que se dedica a produção de motos. No início do
+                        século 20, era uma fabricante de motores de aeronaves e foi por meio da 1° Guerra Mundial que
+                        surgiu a primeira motocicleta BMW, denominada R32, em 1923.</p>
+                    <button type="button" class="btn btn-dark">Saiba mais</button>
+                </div>
+            </article>
+        </div>
+    </div>
+    <div id="comentarios">
+        <div class="content-title">
+            <h1>Depoimentos</h1>
+        </div>
+        <div class="container-comments">
+            <ion-icon name="person-circle-outline"></ion-icon>
+            <h5>Nilson Cruz</h5>
+            <p>"Site bastante informativo. Sempre curti motos, e só hoje obtive interesse pelas clássicas."</p>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div id="Dúvidas">
+        <div class="content-title">
+            <h1>Onde fica?</h1>
+        </div>
+        <div class="container-meet">
+            <div class="content-left">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d125341.87367680337!2d-37.151449261833065!3d-10.968388203420123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x71ab175c40803bb%3A0x72efe754d1013b9e!2sAv.%20Jos%C3%A9%20Carlos%20Silva%2C%204359%20-%20S%C3%A3o%20Conrado%2C%20Aracaju%20-%20SE%2C%2049042-190!3m2!1d-10.968424599999999!2d-37.08137!5e0!3m2!1spt-BR!2sbr!4v1681688938418!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="content-right">
+                <div class="container mt-5">
+                    <form>
+                        <div class="form-group">
+
+                            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                        </div>
+                        <div class="form-group">
+
+                            <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+                        </div>
+                        <div class="form-group">
+
+                            <textarea class="form-control" id="mensagem" rows="5"
+                                placeholder="Digite sua mensagem"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contatos">
+        <footer>
+            <div>
+                <ion-icon name="logo-instagram"></ion-icon>
+                <ion-icon name="logo-linkedin"></ion-icon>
+                <ion-icon name="logo-whatsapp"></ion-icon>
+                <ion-icon name="logo-twitter"></ion-icon>
+            </div>
+            <p>Copyright © Todos os Direitos Reservados a <a href="https://github.com/Hewrxque"
+                    target="_blank">Hewrxque</a></p>
+
+        </footer>
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
