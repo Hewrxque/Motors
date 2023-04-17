@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
 
 * {
@@ -8,16 +7,11 @@
   font-family: 'Roboto', sans-serif;
 }
 
-ion-icon {
-  font-size: 120px;
-}
-
 .content-title {
   display: flex;
   align-items: flex-end;
   justify-content: center;
   height: 100px;
-
 }
 
 nav {
@@ -175,4 +169,3 @@ footer p {
   color: #FFFFFF;
   text-align: center;
 }
-
