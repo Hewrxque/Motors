@@ -178,6 +178,7 @@ td {
 
 th {
   background-color: #FF0000;
+  color: #fff
 }
 
 td {
@@ -194,7 +195,8 @@ td {
 }
 
 .BMW .content-title-table {
-  color: red;
+   color: #FFFFFF;
+  padding-top: 50px;
 }
 .Harley{
   height: 100vh;
@@ -207,7 +209,8 @@ td {
 }
 
 .Harley .content-title-table {
-  color: red;
+  color: #FFFFFF;
+  padding-top: 50px;
 }
 .Triumph{
   height: 100vh;
@@ -220,7 +223,8 @@ td {
 }
 
 .Triumph .content-title-table {
-  color: red;
+  color: #FFFFFF;
+  padding-top: 50px;
 }
 
 
