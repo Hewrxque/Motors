@@ -16,7 +16,7 @@ ion-icon {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  height: 200px;
+  height: 100px;
 
 }
 
@@ -79,6 +79,8 @@ nav {
   gap: 20px;
   align-items: center;
   justify-content: space-around;
+  border-width: 20px;
+
 }
 
 .container-card article {
@@ -86,6 +88,7 @@ nav {
   display: flex;
   align-items: center;
   flex-direction: column;
+  border-width: 20px;
 
 }
 
@@ -95,20 +98,23 @@ nav {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  border-width: 20px;
+
 }
 
 card-img {
   width: 50%;
 }
-/*Comments*/
-.container-comments {
+
+.container-depoiments {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   width: 50%;
-  height: 450px;
+  height: 250px;
   margin: auto;
+  text-align: center;
 }
 
 .carousel-content {
